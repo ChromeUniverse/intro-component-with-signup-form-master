@@ -9,6 +9,10 @@
 body {
   background-image: url('images/bg-intro-desktop.png');
   background-color: var(--red);
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 * {
@@ -163,7 +167,7 @@ main {
   color: var(--red);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
 
 .main {
   grid-template-columns: 1fr;
