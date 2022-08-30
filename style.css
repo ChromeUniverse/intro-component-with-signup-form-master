@@ -169,6 +169,10 @@ main {
 
 @media (max-width: 550px) {
 
+body {
+  display: block;
+}
+
 .main {
   grid-template-columns: 1fr;
   margin: auto;
